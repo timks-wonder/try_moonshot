@@ -10,7 +10,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-def get_filename(path, filetype):  # 输入路径、文件类型例如'.csv'
+def get_filename(path, filetype):
     name = []
     for root, dirs, files in os.walk(path):
         for i in files:
@@ -21,17 +21,11 @@ def get_filename(path, filetype):  # 输入路径、文件类型例如'.csv'
 
 with open("./file_location.txt", "r", encoding='utf-8') as f:
     path = f.readline()
-# path = r'C:\Users\NUOSEN\Desktop\变化检测\CD'
 files = get_filename(path, '.pdf')
 nf = len(files)
-prompts = [
-    '这篇论文试图解决什么问题？',
-    '有哪些相关研究？',
-    '论文如何解决这个问题？',
-    '论文做了哪些实验？',
-    # '有什么可以进一步探索的点？',
-    # '总结一下论文的主要内容',
-]
+with open("./prompts.txt", "r", encoding='utf-8') as f:
+    prompts = f.readlines()
+prompts = [line.strip("\n") for line in prompts]
 np = len(prompts)
 txt_file = Path('./txt')
 txt_file.mkdir(parents=True, exist_ok=True)
@@ -115,5 +109,3 @@ for index in range(nf):
             f.write(':\n')
             f.write(text)
             f.write('\n\n')
-# 获取输出
-a = 1
