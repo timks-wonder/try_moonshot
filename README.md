@@ -14,6 +14,7 @@
 <p>1. 将要读的文献放到一个文件夹下，记下绝对路径为path</p>
 <p>2. 将try_chrome.exe和file_location.txt放到同一个目录下</p>
 <p>3. 将file_location.txt文件中的路径改成刚刚记下的绝对路径path</p>
+<p>4. 可以在prompts里修改想问的问题</p>
 
 <h2>运行</h2>
 
