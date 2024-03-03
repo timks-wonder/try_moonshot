@@ -22,7 +22,7 @@
 <p>2. chrome弹出微信登录的时候登录一下</p>
 <p>3. try_chrome.exe当前目录下会生成txt文件夹，读论文输出会以txt形式记录下来</p>
 
-<video src="./演示视频.mp4" controls="controls" width="500" height="300"></video>
+<video src="master/演示视频.mp4" controls="controls" width="500" height="300"></video>
 
 <p>tips：</p>
 <p>kimi是一个免费的网站，大伙尽量不要滥用，会给该网站造成太大压力</p>
