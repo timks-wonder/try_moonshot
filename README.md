@@ -1,0 +1,2 @@
+# try_moonshot
+本意是想做一个直接调用kimi的API帮我读论文的程序，然后发现API太贵了，但kimi网页版免费，就结合chrome和python写了这么个东西
