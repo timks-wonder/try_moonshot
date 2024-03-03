@@ -1,7 +1,7 @@
 # try_moonshot
 本意是想做一个直接调用kimi的API帮我读论文的程序，然后发现API太贵了，但kimi网页版免费，就结合chrome和python写了这么个东西
 
-h1 配置环境：
+<h1>配置环境<h1>
 需要chrome浏览器，chromedriver插件（这俩版本需要匹配）
 1. 打开chrome浏览器，右上角菜单→帮助→关于chrome→查看chrome版本
 2. 打开https://chromedriver.chromium.org/downloads，寻找相应的驱动版本，需要前面两位大版本号与chrome匹配，下载chromedriver
