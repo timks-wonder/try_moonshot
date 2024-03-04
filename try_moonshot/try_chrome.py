@@ -65,7 +65,7 @@ for index in range(nf):
     dlg["Toolbar3"].click()
     send_keys(path)
     send_keys("{VK_RETURN}")
-    dlg["文件名(&N):Edit"].type_keys(f"{file}")
+    dlg["文件名(&N):Edit"].type_keys(f"{file}", with_spaces=True)
     dlg["打开(&O)"].click()
     WebDriverWait(driver=driver, timeout=600, poll_frequency=0.5, ignored_exceptions=None).until(method=is_send)
     prompt = prompts[0]
