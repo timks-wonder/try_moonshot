@@ -8,7 +8,7 @@
   
 <p>需要chrome浏览器，chromedriver插件（这俩版本需要匹配）</p>
 <p>1. 打开chrome浏览器，右上角菜单→帮助→关于chrome→查看chrome版本</p>
-<p>2. 打开https://chromedriver.chromium.org/downloads，寻找相应的驱动版本，需要前面两位大版本号与chrome匹配，下载chromedriver</p>
+<p>2. 打开https://chromedriver.chromium.org/downloads ，寻找相应的驱动版本，需要前面两位大版本号与chrome匹配，下载chromedriver</p>
 <p>3. 将下载好解压后的chromedriver的exe文件复制到python根目录，这一步不会的话可以参考https://localprod.pandateacher.com/python-manuscript/crawler-html/chromedriver/ChromeDriver.html</p>
 
 <h2>准备</h2>
