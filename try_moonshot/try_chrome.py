@@ -63,7 +63,7 @@ for index in range(nf):
     app = pywinauto.Desktop()
     dlg = app["打开"]
     dlg["Toolbar3"].click()
-    send_keys(path)
+    send_keys(path, with_spaces=True)
     send_keys("{VK_RETURN}")
     dlg["文件名(&N):Edit"].type_keys(f"{file}", with_spaces=True)
     dlg["打开(&O)"].click()
